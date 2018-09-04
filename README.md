@@ -25,7 +25,7 @@ class Calculator {
 
 }
 
-
+--------------------------------------------------------------------------------------------------------------
 
 for (int i = 0; i < 5; i++) {
 .
@@ -36,7 +36,7 @@ for (int i = 0; i < 5; i++) {
 инициализация - Начинаем считать i с нуля , условие - до тех пор пока i не станет =5 . инкремент i++ 
 
 
-
+--------------------------------------------------------------------------------------------------------------
 package guessnum;
 
 import java.util.Random;
@@ -63,3 +63,30 @@ public class Main {
     }
 }
 
+---------------------------------------------------------------------------------------------------------------------
+public class HelloWorld {
+	public static void main(String[] args) {
+		String name;
+		System.out.println(args.length);
+		if (args.length == 0) {
+			name = "World";
+		} else {
+			name = String.join(" ",args); 
+		}
+		System.out.println ("Hello, " + name);
+	}
+}
+----------------------------------------------------------------------------------------------------------------------
+
+public class Calc {
+	public static void main(String[] args) {
+		String strA = args[0];
+		String strB = args[1];
+		System.out.println(strA + strB);
+		double a = Double.parseDouble(strA);
+		double b = Double.parseDouble(strB);
+		System.out.printf("Result = %.2f", (a+b));
+	}
+}
+
+----------------------------------------------------------------------------------------------------------------------
