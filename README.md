@@ -121,3 +121,21 @@ public class Main {
 //        System.out.println("Hello " + name);
 //    }
 //}
+
+----------------------------------------------------------------------------------------------------------------------
+
+package testing;
+
+public class Main {
+
+    public static void main(String[] args) {
+        double A = 10;
+        double B = 25;
+        double result;
+        System.out.println(B % A);
+        result = (B / A);
+        System.out.println(result);
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------------
