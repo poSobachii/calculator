@@ -90,3 +90,34 @@ public class Calc {
 }
 
 ----------------------------------------------------------------------------------------------------------------------
+
+package com.company;
+
+import java.util.*;
+
+
+public class Main {
+
+    static Scanner scan = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("What's your name ?");
+        String name = scan.next();
+        System.out.println(args.length);
+        if (args.length == 0) {
+            name = "World";
+        }
+        System.out.println("Hello, " + name);
+    }
+}
+
+//public class Main {
+//
+//    static Scanner scan = new Scanner(System.in);
+//
+//    public static void main(String[] expression) {
+//        String name = scan.nextLine();
+//        System.out.println(expression.length);
+//        System.out.println("Hello " + name);
+//    }
+//}
